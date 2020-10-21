@@ -30,7 +30,7 @@ This page is simple login page for websites..You can find the screenshots of thi
 This is the one page movie website design.You can specify the theme of the website by simply pressing the circle down right corner of this page..You can find the demo of this page down below.
 
 ![b](readmeContents/moviegif.gif)
-
+---
 ![c](readmeContents/movieResponsiveGif.gif)
 
 
