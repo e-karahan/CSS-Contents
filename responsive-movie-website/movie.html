@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/movie.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <script src="js/JQuery3.3.1.js"></script>
+    <script src="js/lightslider.js"></script>
+    <title>Movie Website</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/9a20e1950f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+          new Darkmode().showWidget();
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+      </script> 
+    <script src="js/darkmode.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label class="menu-icon" for="menu-btn">    
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Movies</a></li>
+            <li><a href="">TV Shows</a></li>
+            <li><a href="">Hollywood</a></li>
+            <li><a href="">Sci-Fiction</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Find Your Favourite" />
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+    <section id="main">
+        <h1 class="showcaseHeading">Showcase</h1>
+
+        <ul id="autoWidth" class="cs-hidden">
+            <!-- Box 1-->
+            <li class="item-a">  
+                <div class="showcaseBox">
+                    <img src="images/s-1.jpg" alt="">
+                </div>
+            </li>
+
+              <!-- Box 2-->
+              <li class="item-b">  
+                <div class="showcaseBox">
+                    <img src="images/s-2.jpg" alt="">
+                </div>
+            </li>
+
+              <!-- Box 3-->
+              <li class="item-c">  
+                <div class="showcaseBox">
+                    <img src="images/s-3.jpg" alt="">
+                </div>
+            </li>
+
+              <!-- Box 4-->
+              <li class="item-d">  
+                <div class="showcaseBox">
+                    <img src="images/s-4.jpg" alt="">
+                </div>
+            </li>
+
+              <!-- Box 5-->
+              <li class="item-e">  
+                <div class="showcaseBox">
+                    <img src="images/s-5.png" alt="">
+                </div>
+            </li>
+            
+
+     
+          </ul>
+
+
+
+
+
+    </section>
+
+    <section id="latest">
+        <h2 class="latestHeading">Latest Movies</h2>
+        <ul id="autoWidth2" class="cs-hidden">
+
+            <!-- Box 1-->
+            <li class="item-a">
+                <div class="latestBox">
+                    <div class="latest-b-img">
+                        <img src="images/m-1.jpg" alt="">
+                    </div>
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p><i class="fas fa-star"></i> 7,8 /10</p>
+                    </div>
+                </div>
+            </li>
+
+             <!-- Box 2-->
+             <li class="item-b">
+                <div class="latestBox">
+                    <div class="latest-b-img">
+                        <img src="images/m-2.jpg" alt="">
+                    </div>
+                    <div class="latest-b-text">
+                        <strong>Penisula</strong>
+                        <p><i class="fas fa-star"></i> 7,8 /10</p>
+                    </div>
+                </div>
+            </li>
+
+             <!-- Box 3-->
+             <li class="item-c">
+                <div class="latestBox">
+                    <div class="latest-b-img">
+                        <img src="images/m-3.jpg" alt="">
+                    </div>
+                    <div class="latest-b-text">
+                        <strong>Inception</strong>
+                        <p><i class="fas fa-star"></i> 7,8 /10</p>
+                    </div>
+                </div>
+            </li>
+
+             <!-- Box 4-->
+             <li class="item-d">
+                <div class="latestBox">
+                    <div class="latest-b-img">
+                        <img src="images/m-4.jpg" alt="">
+                    </div>
+                    <div class="latest-b-text">
+                        <strong>Iron Man 3</strong>
+                        <p><i class="fas fa-star"></i> 7,8 /10</p>
+                    </div>
+                </div>
+            </li>
+
+             <!-- Box 5-->
+             <li class="item-e">
+                <div class="latestBox">
+                    <div class="latest-b-img">
+                        <img src="images/m-5.jpg" alt="">
+                    </div>
+                    <div class="latest-b-text">
+                        <strong>Venom</strong>
+                        <p><i class="fas fa-star"></i> 7,8 /10</p>
+                    </div>
+                </div>
+            </li>
+
+            
+             <!-- Box 6-->
+             <li class="item-f">
+                <div class="latestBox">
+                    <div class="latest-b-img">
+                        <img src="images/m-6.jpg" alt="">
+                    </div>
+                    <div class="latest-b-text">
+                        <strong>Aquaman</strong>
+                        <p><i class="fas fa-star"></i> 7,8 /10</p>
+                    </div>
+                </div>
+            </li>
+
+            
+             <!-- Box 7-->
+             <li class="item-g">
+                <div class="latestBox">
+                    <div class="latest-b-img">
+                        <img src="images/m-7.jpeg" alt="">
+                    </div>
+                    <div class="latest-b-text">
+                        <strong>Jungle Cruise</strong>
+                        <p><i class="fas fa-star"></i> 7,8 /10</p>
+                    </div>
+                </div>
+            </li>
+
+          
+          </ul>
+    </section>
+
+    <div class="moviesHeading">
+        <h2>Movies</h2>
+    </div>
+
+    <section id="moviesList">
+
+        <!-- Box 1-->
+        <div class="moviesBox">
+            <div class="moviesImg">
+                <div class="quality">1080p</div>
+                <img src="images/l-1.jpg" alt="">
+            </div>
+            <div class="moviesText">
+                <a href="">Star Trek : Into Darkness</a>
+            </div>
+            
+        </div>
+
+          <!-- Box 2-->
+          <div class="moviesBox">
+            <div class="moviesImg">
+                <div class="quality">1080p</div>
+                <img src="images/l-2.jpg" alt="">
+            </div>
+            <div class="moviesText">
+                <a href="">Fantastic Beasts</a>
+            </div>
+        </div>
+
+          <!-- Box 3-->
+          <div class="moviesBox">
+            <div class="moviesImg">
+                <div class="quality">HDRip</div>
+                <img src="images/l-3.jpg" alt="">
+            </div>
+            <div class="moviesText">
+                <a href="">Interstellar</a>
+            </div>
+        </div>
+
+
+          <!-- Box 4-->
+          <div class="moviesBox">
+            <div class="moviesImg">
+                <div class="quality">1080p</div>
+                <img src="images/l-4.jpg" alt="">
+            </div>
+            <div class="moviesText">
+                <a href="">The Dark Knight</a>
+            </div>
+        </div>
+
+
+          <!-- Box 5-->
+          <div class="moviesBox">
+            <div class="moviesImg">
+                <div class="quality">1080p</div>
+                <img src="images/l-5.jpg" alt="">
+            </div>
+            <div class="moviesText">
+                <a href="">Joker</a>
+            </div>
+        </div>
+
+
+          <!-- Box 6-->
+          <div class="moviesBox">
+            <div class="moviesImg">
+                <div class="quality">1080p</div>
+                <img src="images/l-6.jpg" alt="">
+            </div>
+            <div class="moviesText">
+                <a href="">Star Wars : Rise of The Skywalker</a>
+            </div>
+        </div>
+
+
+          <!-- Box 7-->
+          <div class="moviesBox">
+            <div class="moviesImg">
+                <div class="quality">HDRip</div>
+                <img src="images/l-7.jpg" alt="">
+            </div>
+            <div class="moviesText">
+                <a href="">Star Wars : Rogue One</a>
+            </div>
+        </div>
+
+         <!-- Box 8-->
+         <div class="moviesBox">
+            <div class="moviesImg">
+                <div class="quality">1080p</div>
+                <img src="images/l-8.jpg" alt="">
+            </div>
+            <div class="moviesText">
+                <a href="">Venom</a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="btns"> 
+        <a href="">Previous</a>
+        <a href="">Next</a>
+    </div>
+
+    <footer>
+        <p>Cafune Design</p>
+        <p>Copyright 2020 - CafuneDesign</p>
+    </footer>
+
+
+
+
+
+
+    <!-- Slider Script-->
+    <script>
+                $(document).ready(function() {
+            $('#autoWidth,#autoWidth2').lightSlider({
+                autoWidth:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+                } 
+            });  
+        });
+    </script>
+</body>
+</html>
