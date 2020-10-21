@@ -1,0 +1,106 @@
+body{
+    background: rgb(19,20,21,1);
+}
+.loginMain{
+    width: 550px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainRow1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.loginImage{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.mainRow2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}.row2Text{
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.mainRow3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.row3Text{
+    color: rgb(189, 190, 190);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 0px;
+}
+.mainRow4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.row4Input{
+    background: rgb(28, 29, 31);
+    border: none;
+    outline: none;
+    border: 1px solid rgb(51, 52, 54);
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 15px;
+    color: rgb(189, 190, 190);
+    font-family: 'Open Sans', sans-serif;
+}
+::-webkit-input-placeholder {
+    color: #63625d;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+.submitBtn{
+    background: darkorange;
+    width: 44px;
+    height: 44px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.submitIcon{
+    color: white;
+    font-size: 20px;
+    transition: all .2s ease-in-out; 
+}
+.submitIcon:hover{
+    transform: scale(1.2);
+}
+.mainRow5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.row5Text{
+    color: rgb(189, 190, 190);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .loginMain{
+        width: 100%;
+        margin-top: 100px;
+    }
+}
