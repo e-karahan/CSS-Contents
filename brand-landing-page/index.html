@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Brand Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </div>
+    <section class="banner">
+        <header>
+            <h2 class="logo">iPhone 12 Pro</h2>
+            <div class="toggle" onclick="toggleMenu();"></div>
+        </header>
+        <video src="video/iPhone12.mp4" muted lopp autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>İkonik Yenilik</h2>
+            <h3>Daha az kenar,daha çok ekran.</h3>
+            <p>Bir akıllı telefondaki en hızlı çip A14 Bionic. Tamamen yeni bir tasarım. Ceramic Shield. Daha gerçekçi AR deneyimleri için LiDAR Tarayıcısı. Loş ışık için optimize edilen ve iPhone 12 Pro Max’te daha da muhteşem bir performans sergileyen Pro kamera sistemi.
+            </p>
+            <a href="">DISCOVER</a>
+        </div>
+        <ul class="social">
+            <li><a href=""><img src="img/instagram.png" alt=""></a></li>
+            <li><a href=""><img src="img/twitter.png" alt=""></a></li>
+        </ul>
+
+        
+    </section>
+    <script type="text/javascript">
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var banner = document.querySelector('.banner');
+            menuToggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+        
+    </script>
+</body>
+</html>
