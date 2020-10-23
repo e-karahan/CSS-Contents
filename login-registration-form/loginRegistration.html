@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Registration Form</title>
+    <link rel="stylesheet" href="css/loginRegistration.css">
+    <script src="https://kit.fontawesome.com/9a20e1950f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sign-in">
+        <div class="mainPage">
+            <div class="topBar "></div>
+            <div class="title">
+                <h1>Buddy</h1>
+                <p>Login and Registration Page Design</p>
+            </div>
+            <div class="formBtns">
+                <button class="sBtn">Sign In</button>
+                <button class="gBtn">Sign In With Google</button>
+                <a href="#" class="nBtn">New Account</a>
+            </div>
+            <div class="cancel">
+                <a href=""><i class="fas fa-times"></i></a>
+            </div>
+        </div>
+        <!--Sign In Section-->
+            <div class="signInPage">
+                <form>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <button>Sign In</button>
+                </form>
+            </div>
+        <!--Sign Up Section-->
+             <div class="signUpPage">
+                <form>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Repeat-Password">
+                    <button>Sign Up</button>
+                </form>
+            </div>
+    </section>
+
+   
+    
+
+    <!--Jquery-->
+    <script type="text/javascript" src="js/Jquery.js"></script>
+    <script type="text/javascript">
+    /*Sign In*/
+    $(document).on('click','.sBtn',function(){
+        $('.sign-in').addClass('active-sign-in').siblings('.sign-in').removeClass('active-sign-up')
+    });
+
+      /*Sign Up*/
+      $(document).on('click','.nBtn',function(){
+        $('.sign-in').addClass('active-sign-up').siblings('sign-in').removeClass('active-sign-in')
+    });
+        /*Go Back*/
+        $(document).ready(function(){
+            $('.cancel a').click(function(){
+                $('.sign-in').removeClass('active-sign-in , active-sign-up')
+            })
+        });
+    
+
+
+    </script>
+</body>
+</html>
