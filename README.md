@@ -11,7 +11,7 @@ This repository includes all of my design projects.Feel free to use everything i
 | 3      | Responsive Movie Website      |
 | 4      | Travel Cards                  |
 | 5      | Product Cards                 |
-| 5      | Login & Registration Form     |
+| 6      | Login & Registration Form     |
 
 # 1) Brand Landing Page
 This page is simple presentation for any product.You can specify the background video and gradient colors.You can find the demo of this page down below.
