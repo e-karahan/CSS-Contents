@@ -12,6 +12,7 @@ This repository includes all of my design projects.Feel free to use everything i
 | 4      | Travel Cards                  |
 | 5      | Product Cards                 |
 | 6      | Login & Registration Form     |
+| 7      | Responsive Services Section   |
 
 # 1) Brand Landing Page
 This page is simple presentation for any product.You can specify the background video and gradient colors.You can find the demo of this page down below.
@@ -58,6 +59,13 @@ This page is Login and Registration page for any website.You can pick any backgr
 ![e](readmeContents/loginRegistration2.PNG)
 
 ![e](readmeContents/loginRegistration3.PNG)
+
+
+# 7) Responsive Services Section
+This page is simple services section for any websites.You can customize the cards and use it easily.You can find the demo of this page down below.
+
+![g](readmeContents/servicesgif.gif)
+
 
 
 
